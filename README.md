@@ -1,4 +1,4 @@
-# TMP-ResDistancePre# 
+# TMP-ResDistancePre
 
 ### SurResD is a deep learning model based on the combination of Squeeze-and-Excitation(SE) block and Residual Block to predict the distance of residues on the surface of transmembrane protein.  
  
