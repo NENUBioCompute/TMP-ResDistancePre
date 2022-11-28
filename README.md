@@ -1,11 +1,8 @@
-# TMP-ResDistancePre
-### SurResD is a deep learning model based on the combination of Squeeze-and-Excitation(SE) block and Residual Block to predict the distance of residues on the surface of transmembrane protein.  
-### TMResD is a deep learning model based on residual network, which is used to predict residue distance in transmembrane region of transmembrane protein.  
-#### Both networks use feature which is a combination of HHM and CCM as input. HHM and CCM are calculated by HHBilts tool and CCMpred algorithm respectively. The output is the L×L residual-distance matrix.
-#### If you want to use the models, follow this process:
-#### (1) Prepare fasta files to be predicted
-#### (2) Use the HHBlits tool to obtain the. HMM file: http://toolkit.genzentrum.lmu.de/hhblits/; The background database download link is   http://wwwuser.gwdg.de/~compbiol/data/hhsuite/databases/hhsuite_dbs/
-#### (3) CCM was obtained using CCMPred (https://github.com/soedinglab/CCMpred), but before that you need to get multiple sequence alignment (MSA). The tool used in this article is deepMSA (https://zhanggroup.org/DeepMSA/), and you can also use a locally installed version to do the calculations faster. 
-#### (4) Finally, the path in the code needs to be modified accordingly.
+# TMP-SurResD
+A deep-learning framework, TMP- SurResD (Transmembrane Proteins Surface Residue Distance Prediction), for simultaneously predicting relative distance of functional surface residues based on the combination of co-evolutionary information.
 
-#### If you have any problem in using these models, please send me an email at chenqf830@nenu.edu.cn. Good luck for you! 
+## The workflow and architecture of TMP-SurResD
+![image](https://user-images.githubusercontent.com/52032167/193661439-5bb9cf68-bf08-4041-9fa6-5f5a1330722b.png)
+
+## Details of the TMP-SurResD framework
+![image](https://user-images.githubusercontent.com/52032167/193661583-79c9fefc-9775-4157-88ce-598ae5654acd.png)
