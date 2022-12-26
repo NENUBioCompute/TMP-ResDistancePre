@@ -6,3 +6,5 @@ A deep-learning framework, TMP- SurResD (Transmembrane Proteins Surface Residue 
 
 ## Details of the TMP-SurResD framework
 ![image](https://user-images.githubusercontent.com/52032167/193661583-79c9fefc-9775-4157-88ce-598ae5654acd.png)
+
+## Details of the TMP-SurResD framework
