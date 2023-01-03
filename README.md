@@ -21,16 +21,16 @@ deepMSA for generatinng MSAs, which are available at https://zhanggroup.org/Deep
 CCmpred for generating CCM, which are available at https://github.com/soedinglab/CCMpred.
 
 ### Download TMP-SS, which is used to predict transmembrane protein surface residues.
-'''
+```
 git clone https://github.com/NENUBioCompute/TMP-ResDistancePre.git
-'''
+```
 
 ### Test & Evaluate in Command Line
 We provide test.py that is able to run pre-trained models. Run it with:
 
-'''python
+```python
 python test.py 
-'''
+```
 
 It is important to note that the 'test.py' provided is only to verify experimental results recorded in the manuscript and cannot be used directly to predict unknown protein sequences. If you need to predict an unknown protein sequence, the input data needs to be prepared in advance.
 
