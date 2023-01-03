@@ -15,9 +15,13 @@ Here we provide the three trained models described in the manuscript, namely "24
 
 ### Requirements
 Python 3.6
+
 Pytorch
+
 HH-suite for generating HHblits files (with the file suffix of .hhm), which are available at https://github.com/soedinglab/hh-suite.
+
 deepMSA for generatinng MSAs, which are available at https://zhanggroup.org/DeepMSA/.
+
 CCmpred for generating CCM, which are available at https://github.com/soedinglab/CCMpred.
 
 ### Download TMP-SS, which is used to predict transmembrane protein surface residues.
