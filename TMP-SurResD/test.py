@@ -83,10 +83,10 @@ def main(n):
     # 1.If the model selected is '24_ccmpred_90', select this line of code
     # model_path = './model/24_ccmpred_90'
 
-    # 2.If the model selected is '24_onehot_hhm_ccmpred90', select this line of code
+    # If the model selected is '24_hhm_ccmpred_90', select this line of code
     model_path = './model/24_hhm_ccmpred_90'
 
-    # 3.If the model selected is '24_hhm_ccmpred_90', select this line of code
+    # 3.If the model selected is '24_onehot_hhm_ccmpred90', select this line of code
     # model_path = './model/24_onehot_hhm_ccmpred90'
 
     model = SENet24(n)
@@ -134,9 +134,9 @@ if __name__ == '__main__':
     # 1.If the model selected is '24_ccmpred_90', select this line of code
     # n = 1
 
-    # 2.If the model selected is '24_onehot_hhm_ccmpred90', select this line of code
+    # 2.If the model selected is '24_hhm_ccmpred_90', select this line of code
     n = 31  
 
-    # 3.If the model selected is '24_hhm_ccmpred_90', select this line of code
+    # 3.If the model selected is '24_onehot_hhm_ccmpred90', select this line of code
     # n = 101
     main(n)
