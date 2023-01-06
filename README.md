@@ -26,11 +26,6 @@ DeepMSA (https://seq2fun.dcmb.med.umich.edu/DeepMSA/);
 CCMpred (https://bitbucket.org/soedinglab/ccmpred);  
 PSI-BLAST (ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/).
 
-### Download TMP-SSurface2, which is used to predict transmembrane protein surface residues.
-```
-git clone https://github.com/NENUBioCompute/TMP-SSurface-2.0.git
-```
-
 ### Test & Evaluate in Command Line
 We provide test.py that is able to run pre-trained models. Run it with:  
 ```python
@@ -40,6 +35,8 @@ python test.py
 It is important to note that the 'test.py' provided is only to verify experimental results recorded in the manuscript and cannot be used directly to predict unknown protein sequences. If you need to predict an unknown protein sequence, the input data needs to be prepared in advance. Refer to the data feature extraction process shown below:
 
 ![hhhhhh](https://user-images.githubusercontent.com/52032167/211035424-1892cc72-4c0f-42d3-bee8-90647df254ad.png)
+
+As shown in the figure, TMP-SSurface2 for generatinng rASA; HHblits for generatinng HHM features; deepMSA for generatinng MSAs; CCmpred for generating CCM.
 
 1. If you want to use the "24_ccmpred_90" model, just prepare the CCM features run out with CCMpred in advance. Then select three lines of code in the test.py file.
 ```python
