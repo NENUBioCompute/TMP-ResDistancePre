@@ -14,7 +14,9 @@ We provide all the transmembrane protein sequences used in the manuscript, which
 Here we provide the three trained models described in the manuscript, namely "24_ccmpred_90", "24_hhm_ccmpred_90", and "24_onehot_hhm_ccmpred90". The input dimension of model "24_ccmpred_90" is L×L×1 (CCM feature), "24_hhm_ccmpred_90" is L×L×61 (onehot+HHM), and "24_onehot_hhm_ccmpred90" is L×L×101 (onehot+HHM+CCM). The test data provided by us can be used to verify our proposed method.
 
 ### Requirements
-Tools used in this study can be publicly available online:  PDBTM (http://pdbtm.enzim.hu);  Biopython (https://biopython.org/);  
+Tools used in this study can be publicly available online:  
+PDBTM (http://pdbtm.enzim.hu);  
+Biopython (https://biopython.org/);  
 
 CD-HIT (http://weizhong-lab.ucsd.edu/cd-hits/); \
 
