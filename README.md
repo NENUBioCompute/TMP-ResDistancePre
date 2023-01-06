@@ -14,14 +14,21 @@ We provide all the transmembrane protein sequences used in the manuscript, which
 Here we provide the three trained models described in the manuscript, namely "24_ccmpred_90", "24_hhm_ccmpred_90", and "24_onehot_hhm_ccmpred90". The input dimension of model "24_ccmpred_90" is L×L×1 (CCM feature), "24_hhm_ccmpred_90" is L×L×61 (onehot+HHM), and "24_onehot_hhm_ccmpred90" is L×L×101 (onehot+HHM+CCM). The test data provided by us can be used to verify our proposed method.
 
 ### Requirements
-Tools used in this study can be publicly available online: \
+Tools used in this study can be publicly available online:\
+
 PDBTM (http://pdbtm.enzim.hu);\
-Biopython (https://biopython.org/); \
-CD-HIT (http://weizhong-lab.ucsd.edu/cd-hits/); \ 
-TMP-SSurface-2.0 (https://github.com/NENUBioCompute/TMP-SSurface-2.0); \
-HHblits (http://toolkit.genzentrum.lmu.de/hhblits/); \ 
+
+Biopython (https://biopython.org/);\
+
+CD-HIT (http://weizhong-lab.ucsd.edu/cd-hits/); \
+
+TMP-SSurface-2.0 (https://github.com/NENUBioCompute/TMP-SSurface-2.0);\
+
+HHblits (http://toolkit.genzentrum.lmu.de/hhblits/);\
+
 Pytorch (https://pytorch.org/); \
 DeepMSA (https://seq2fun.dcmb.med.umich.edu/DeepMSA/); \
+
 Python 3.6 (https://www.python.org/); \
 CCMpred (https://bitbucket.org/soedinglab/ccmpred);\
 PSI-BLAST (ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/).\
