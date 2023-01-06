@@ -15,13 +15,14 @@ Here we provide the three trained models described in the manuscript, namely "24
 
 ### Requirements
 Tools used in this study can be publicly available online:  
+Pytorch (https://pytorch.org/);  
+Python 3.6 (https://www.python.org/);  
 PDBTM (http://pdbtm.enzim.hu);  
 Biopython (https://biopython.org/);  
 CD-HIT (http://weizhong-lab.ucsd.edu/cd-hits/);  
 TMP-SSurface-2.0 (https://github.com/NENUBioCompute/TMP-SSurface-2.0);  
-HHblits (http://toolkit.genzentrum.lmu.de/hhblits/);  
-Pytorch (https://pytorch.org/);  DeepMSA (https://seq2fun.dcmb.med.umich.edu/DeepMSA/);  
-Python 3.6 (https://www.python.org/);  
+HHblits (http://toolkit.genzentrum.lmu.de/hhblits/);   
+DeepMSA (https://seq2fun.dcmb.med.umich.edu/DeepMSA/);   
 CCMpred (https://bitbucket.org/soedinglab/ccmpred);  
 PSI-BLAST (ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/).
 
@@ -47,7 +48,7 @@ model_path = './model/24_ccmpred_90'
 n = 1
 ```
 
-2. If you want to use the "24_hhm_ccmpred_90" model, just prepare the CCM features run out with CCMpred and the HHM features generated with HHBlits in advance. Then select three lines of code in the test.py file.
+2. If you want to use the "24_hhm_ccmpred_90" model, just prepare the CCM features run out with CCMpred and the HHM features generated with HHBlits in advance. Then select three lines of code in the test.py file.  
 ```python
 x_test, y_test = con.main('ccmpred')
 model_path = './model/24_hhm_ccmpred_90'
