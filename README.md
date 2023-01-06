@@ -36,7 +36,7 @@ It is important to note that the 'test.py' provided is only to verify experiment
 
 ![hhhhhh](https://user-images.githubusercontent.com/52032167/211035424-1892cc72-4c0f-42d3-bee8-90647df254ad.png)
 
-As shown in the figure, TMP-SSurface2 for generatinng rASA; HHblits for generatinng HHM features; deepMSA for generatinng MSAs; CCmpred for generating CCM.
+As shown in the figure, TMP-SSurface2 for generating rASA; HHblits for generating HHM features; deepMSA for generating MSAs; CCmpred for generating CCM.
 
 1. If you want to use the "24_ccmpred_90" model, just prepare the CCM features run out with CCMpred in advance. Then select three lines of code in the test.py file.
 ```python
