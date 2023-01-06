@@ -135,7 +135,7 @@ if __name__ == '__main__':
     # n = 1
 
     # 2.If the model selected is '24_hhm_ccmpred_90', select this line of code
-    n = 31  
+    n = 61  
 
     # 3.If the model selected is '24_onehot_hhm_ccmpred90', select this line of code
     # n = 101
